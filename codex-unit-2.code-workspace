@@ -83,6 +83,12 @@
 				"name": "http://127.0.0.1:3000/lesson-02-forms/level-02/index.html",
 				"request": "launch",
 				"url": "http://127.0.0.1:3000/lesson-02-forms/level-02/index.html"
+			},
+			{
+				"type": "msedge",
+				"name": "http://127.0.0.1:3000/lesson-02-forms/level-04/index.html",
+				"request": "launch",
+				"url": "http://127.0.0.1:3000/lesson-02-forms/level-04/index.html"
 			}
 		]
 	}
