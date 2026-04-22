@@ -1,15 +1,30 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Lesson 02 — Level 06</title>
-  </head>
-  <body>
-    <h1>Level 06 — Radios & Checkboxes</h1>
-    <form>
-      <!-- TODO: Add radio inputs that share a name attribute -->
-      <!-- TODO: Add one or more checkbox inputs -->
-    </form>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lesson 02 — Level 06</title>
+</head>
+
+<body>
+  <h1>Food Choices</h1>
+  <form>
+    <fieldset>
+      <legend>Favorite food </legend>
+      <input type="radio" name="food" value="pizza" id="pizza" />
+      <label for="pizza">Pizza</label>
+      <input type="radio" name="food" value="taco" id="taco" />
+      <label for="taco">Taco</label>
+      <input type="radio" name="food" value="burger" id="burger" />
+      <label for="burger">Burger</label>
+    </fieldset>
+
+    <label> <input type="checkbox" name="food" /> I like food
+    </label>
+
+    <button type="submit">submit </button>
+  </form>
+</body>
+
 </html>
