@@ -4,7 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {},
+	"settings": {
+		"files.autoSave": "onFocusChange",
+		"editor.defaultFormatter": "vscode.html-language-features",
+		"editor.wordWrap": "on",
+		"editor.formatOnSave": true
+	},
 	"launch": {
 		"configurations": [
 			{
@@ -66,6 +71,12 @@
 				"name": "http://127.0.0.1:3000/lesson-01-semantic-tags/level-10-build-page/index.html",
 				"request": "launch",
 				"url": "http://127.0.0.1:3000/lesson-01-semantic-tags/level-10-build-page/index.html"
+			},
+			{
+				"type": "msedge",
+				"name": "http://127.0.0.1:3000/lesson-02-forms/level-01/index.html",
+				"request": "launch",
+				"url": "http://127.0.0.1:3000/lesson-02-forms/level-01/index.html"
 			}
 		]
 	}
