@@ -54,6 +54,12 @@
 				"name": "http://127.0.0.1:3000/lesson-01-semantic-tags/level-08-details-summary/index.html",
 				"request": "launch",
 				"url": "http://127.0.0.1:3000/lesson-01-semantic-tags/level-08-details-summary/index.html"
+			},
+			{
+				"type": "msedge",
+				"name": "http://127.0.0.1:3000/lesson-01-semantic-tags/level-09-refactor-divs/index.html",
+				"request": "launch",
+				"url": "http://127.0.0.1:3000/lesson-01-semantic-tags/level-09-refactor-divs/index.html"
 			}
 		]
 	}
