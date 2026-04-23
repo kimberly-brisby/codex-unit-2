@@ -4,3 +4,10 @@
   padding: 20px;
   border: 4px solid #333;
 }
+
+#box-a{
+  box-sizing: content-box;
+}
+#box-b{
+  box-sizing: border-box;
+}
