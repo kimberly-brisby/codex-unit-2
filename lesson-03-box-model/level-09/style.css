@@ -6,8 +6,11 @@
 }
 .item {
   display: inline-block;
-  width: 160px;
+  width: 120px;
   padding: 12px;
   border: 2px solid #444;
   margin: 8px;
+}
+*{
+  box-sizing: border-box;
 }
