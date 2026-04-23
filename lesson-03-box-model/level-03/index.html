@@ -1,16 +1,27 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Level 03 — Padding / Border / Margin Deep Dive</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main>
-      <h1>Padding / Border / Margin Deep Dive</h1>
-      <div class="demo" id="demo-box">Demo box</div>
-      <p><!-- TODO: Adjust CSS in this file to observe spacing changes. --></p>
-    </main>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Level 03 — Padding / Border / Margin Deep Dive</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <h1>Padding / Border / Margin Deep Dive</h1>
+    <div class="demo" id="demo-box">
+      <div class="layer-margin">
+        <div class="layer-border">
+          <div class="layer-padding">
+            <div class="layer-content">Demo box</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p><!-- TODO: Adjust CSS in this file to observe spacing changes. --></p>
+  </main>
+</body>
+
 </html>
