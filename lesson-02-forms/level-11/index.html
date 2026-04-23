@@ -1,14 +1,33 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Lesson 02 — Level 11</title>
-  </head>
-  <body>
-    <h1>Level 11 — Integrate & Polish</h1>
-    <form>
-      <!-- TODO: Combine all pieces: inputs, labels, fieldsets, validation, and submit control -->
-    </form>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lesson 02 — Level 11</title>
+</head>
+
+<body>
+  <h1>Putting it all together</h1>
+  <form>
+    <label for="name">Name</label>
+    <input id="name" type="text">
+    <br>
+    <label for="password">Password</label>
+    <input id="password" type="text" required minlength="4" maxlength="10">
+    <br>
+    <fieldset>
+      <legend>Ease of setup</legend>
+      <label><input type="checkbox" name="easy">Easy</label>
+      <label><input type="checkbox" name="moderate">Moderate</label>
+      <label><input type="checkbox" name="hard">Hard</label>
+    </fieldset>
+    <br>
+    <label for="message">Message</label>
+    <textarea id="message" name="maeesage" rows="3">  </textarea>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
 </html>
