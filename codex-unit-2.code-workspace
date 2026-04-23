@@ -125,6 +125,12 @@
 				"name": "http://127.0.0.1:3000/lesson-03-box-model/level-01/index.html",
 				"request": "launch",
 				"url": "http://127.0.0.1:3000/lesson-03-box-model/level-01/index.html"
+			},
+			{
+				"type": "msedge",
+				"name": "http://127.0.0.1:3000/lesson-03-box-model/level-02/index.html",
+				"request": "launch",
+				"url": "http://127.0.0.1:3000/lesson-03-box-model/level-02/index.html"
 			}
 		]
 	}
