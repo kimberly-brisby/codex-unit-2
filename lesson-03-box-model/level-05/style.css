@@ -2,9 +2,11 @@
 .demo-inline {
   display: inline;
   background: #fee;
+  padding: 15px;
 }
 .demo-block {
   display: block;
   background: #eef;
   width: 200px;
+  padding:25px;
 }
