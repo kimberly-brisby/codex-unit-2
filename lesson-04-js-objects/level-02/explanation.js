@@ -1,2 +1,4 @@
 // TODO: Default-export a short explanation string mentioning "key" and "value".
-export default "TODO: Objects are collections of key/value pairs.";
+export default "Primitives hold 1 value. Object",
+"Arrays hold items in an ordered list accessed by index. Values in n object."
+
