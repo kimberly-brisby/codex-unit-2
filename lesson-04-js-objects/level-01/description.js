@@ -1,4 +1,2 @@
 // TODO: Default-export a short description string about objects.
-// Example: export default "Objects are key/value collections."
-export default "TODO: A short description of objects.";
-export default "Component that consist of code."
+export default "An object stores named values: each name is a key and it points to a value."
