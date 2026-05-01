@@ -2,7 +2,7 @@
 
 ## Objective
 
-Use `document.querySelector` and `document.querySelectorAll` to select elements and update their text; iterate a `NodeList` to apply changes.
+Use `document.querySelector` to select an element and update its text.
 
 ## Benefits
 
