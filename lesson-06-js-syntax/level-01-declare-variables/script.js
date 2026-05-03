@@ -7,3 +7,12 @@
 // Add your lines below:
 
 let userName;
+let pasword;
+let food;
+let color;
+let pets;
+let places;
+let cars;
+let number;
+let classes;
+let jobs;
