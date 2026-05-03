@@ -7,4 +7,15 @@
 
 // Add your lines below:
 
+let streetName = "Orange";
 let totalCount = 0;
+let lastName = "Brisby";
+let age = 43;
+let petName = "Diesel";
+let favNumber = 7;
+let schoolName = "Salmen";
+let streetNumber = 25;
+let cityName = "Slidell";
+let newNumber = 5;
+
+export default cityName;
