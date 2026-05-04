@@ -1,7 +1,7 @@
 // Level 05 — querySelector starter
 // TODO: use document.querySelector('#content') or document.querySelectorAll('.item')
 // TODO: log previous content and update nodes (iterate NodeList with forEach)
-const pTag = document.querySelector("p");
+const liTag = document.querySelector("#content");
 // Scaffold:
 // const one = document.querySelector('#content');
 // console.log('before:', one && one.innerHTML);
@@ -10,4 +10,4 @@ const pTag = document.querySelector("p");
 // list.forEach((el, i) => {
 //   // TODO: update each el.innerText
 // });
-pTag.innerText = "Hello World!";
+liTag.innerHTML = "<h2>Hello World!</h2>";
