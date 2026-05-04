@@ -16,3 +16,5 @@ let carMake;
 let number;
 let classes;
 let jobs;
+
+export default places;
