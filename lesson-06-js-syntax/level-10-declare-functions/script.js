@@ -20,7 +20,7 @@ function setTime(){
   return "set the time";
 }
 function addToCart(){
-  reurn "adds item to cart";
+  return "adds item to cart";
 }
 function playSound(){
   return "plays current sound";
@@ -35,4 +35,4 @@ function depositCash (){
   return "deposit cash in account";
 }
 
-default export playSound;
+export default playSound;
