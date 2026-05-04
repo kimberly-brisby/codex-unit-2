@@ -14,4 +14,4 @@ let isHungry = false;
 let canCook = true;
 let hasSwam = true;
 
-export default "isHot" 
+export default isHot; 
