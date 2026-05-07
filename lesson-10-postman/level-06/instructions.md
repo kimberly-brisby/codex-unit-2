@@ -11,7 +11,8 @@
 
 ## Complete these tasks
 
-- Pick an API from `https://free-apis.github.io` and find a suitable GET endpoint.
+- Pick an API from `https://free-apis.github.io` or search the internet.
+- Pick a suitable GET endpoint.
 - Read the API docs.
 - Use Postman to make the GET request with data and inspect the response.
 - Use `script.js` to `console.log` one fact learned from the documentation.
