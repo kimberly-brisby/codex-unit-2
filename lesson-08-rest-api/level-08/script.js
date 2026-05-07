@@ -11,7 +11,7 @@ async function handleSubmit(event) {
     username: form.elelments.username.value,
     email: form.elelments.email.value,
   };
-  await fetch("http://api.jsoning.com/mock/public/users",{method:"POST",headers{"content-Type":"application/json"},body:JSON.stringify(data)});
+  await fetch("http://api.jsoning.com/mock/public/users",{method:"POST",headers:{"content-Type":"application/json"},body:JSON.stringify(data)});
   
   
   // TODO: collect values via form.elements[0].value, form.elements[1]"".value, form.elements[2].value

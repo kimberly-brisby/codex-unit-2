@@ -14,7 +14,7 @@ async function handleSubmit(event) {
     v2:form.elements.v2.value,
     v3:form.elements.v3.value,
   };
-  await fetch("https://api.jsoning.com/mock/public/users",{method:"POST",headers:{"Content-Type":"application/json"}body:JSON.stringify(data)});
+  await fetch("https://api.jsoning.com/mock/public/users",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(data)});
 
   // TODO: collect data, POST to echo server, parse response, and insert values into v1/v2/v3
 }
