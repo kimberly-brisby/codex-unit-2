@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Level 08 — preventDefault starter
 // TODO: update your submit handler to call event.preventDefault() before other logic
 const form = document.querySelector("form");
@@ -16,3 +17,11 @@ function handleSubmit(event) {
 // Attach scaffold:
 // const form = document.getElementById('sample-form');
 // if (form) form.onsubmit = handleSubmit;
+=======
+// TODO: Create handleSubmit(event), call event.preventDefault() and log an explanation.
+// Example starter:
+// function handleSubmit(event) {
+//   event.preventDefault();
+//   console.log('preventDefault called');
+// }
+>>>>>>> Master
