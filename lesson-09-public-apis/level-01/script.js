@@ -13,11 +13,11 @@ async function handleSubmit(event) {
     const response = await fectch ("https://dummyjson.com/auth/login",{
       method:"POST",
       body:dataString,
-      headers:{"Content-Type":"application/json"}
+      headers: {"Content-Type":"application/json"}
     });
 
     const result = await response.json();
 
-  };
+  }
 
   
