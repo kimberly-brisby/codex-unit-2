@@ -21,14 +21,13 @@ async function handleSubmit(event) {
   const errorTag = document.getElementById("error");
   const successTag = document.getElementById("success");
 
-  if (message !== undefined){
+  if (message){
      errorTag.innerText = "Invalid Credentials";
      successTag.innerText = "";
-  } else if (firstName != undefined) {
+  } else if (firstName) {
     successTag.innerText = "Logged In!";
     errorTag.innerText = "";
     formTag.reset();
   }
-  // TODO: Parse response into `result` and update `errorEl.innerText` or `successEl.innerText`
-  // TODO: On success, call form.reset()
+
 }
