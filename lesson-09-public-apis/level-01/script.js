@@ -10,10 +10,10 @@ async function handleSubmit(event) {
     password: formTag.elements.password.value
   };
     const dataString =JSON.stringify(data);
-    const response = await fectch ("https://dummyjson.com/auth/login",{
+    const response = await fetch ("https://dummyjson.com/auth/login",{
       method:"POST",
-      body:dataString,
-      headers: {"Content-Type":"application/json"}
+      body: dataString,
+      headers: { "Content-Type": "application/json" }
     });
 
     const result = await response.json();
