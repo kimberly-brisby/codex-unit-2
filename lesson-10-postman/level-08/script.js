@@ -2,7 +2,7 @@
 const form = document.getElementById("api-form");
 form.onSubmit = handleSubmit;
 
-async function handleSubmit(event);
+async function handleSubmit(event) {
 event.preventDefault;
 const form = event.target;
 const data = {
@@ -13,3 +13,4 @@ const response = await fetch("https://api.disneyapi.dev/character" + "?" + datas
 const result = await response.json();
 console.log("Who's that character?");
 
+}
