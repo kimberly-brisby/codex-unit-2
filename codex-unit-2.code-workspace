@@ -197,6 +197,12 @@
 				"name": "http://127.0.0.1:3000/lesson-09-public-apis/level-08/index.html",
 				"request": "launch",
 				"url": "http://127.0.0.1:3000/lesson-09-public-apis/level-08/index.html"
+			},
+			{
+				"type": "msedge",
+				"name": "http://127.0.0.1:3002/lesson-10-postman/level-08/index.html",
+				"request": "launch",
+				"url": "http://127.0.0.1:3002/lesson-10-postman/level-08/index.html"
 			}
 		]
 	}
