@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Level 04 — innerHTML starter
 // TODO: select an element (e.g. document.getElementById('content'))
 // TODO: log previous innerHTML, set a small markup string (e.g. <strong>), then log after value
@@ -10,7 +9,3 @@ const divTag = document.getElementById(content);
 // console.log('after innerHTML:', el && el.innerHTML);
 console.log(divTag.innerHTML);
 divTag.innerHTML = "<h1>Hello World!</h1>";
-=======
-// TODO: Select element with getElementById('content'), log previous innerHTML, then set new innerHTML.
-// Keep changes simple and avoid inserting untrusted markup.
->>>>>>> Master

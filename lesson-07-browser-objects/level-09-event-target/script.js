@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Level 09 — event.target starter
 // TODO: inside submit handler inspect event.target and event.currentTarget
 const form = document.getElementById("simple-form");
@@ -18,11 +17,3 @@ function handleSubmit(event) {
 // if (form) form.onsubmit = handleSubmit;
 
 
-=======
-// TODO: In the submit handler, use event.target to reference the form instead of querying the DOM again.
-// Example starter:
-// function handleSubmit(event) {
-//   event.preventDefault();
-//   const form = event.target;
-// }
->>>>>>> Master

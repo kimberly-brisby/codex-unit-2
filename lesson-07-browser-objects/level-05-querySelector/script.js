@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Level 05 — querySelector starter
 // TODO: use document.querySelector('#content') or document.querySelectorAll('.item')
 // TODO: log previous content and update nodes (iterate NodeList with forEach)
@@ -12,6 +11,3 @@ const liTag = document.querySelector("#content");
 //   // TODO: update each el.innerText
 // });
 liTag.innerHTML = "<h2>Hello World!</h2>";
-=======
-// TODO: Use querySelector('#content') to select element and update innerHTML to explain querySelector vs getElementById
->>>>>>> Master

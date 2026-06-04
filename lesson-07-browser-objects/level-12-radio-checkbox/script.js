@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Level 12 — radio-checkbox starter
 // TODO: in submit handler read radio via form.elements.color.value and checkbox via form.elements.subscribe.checked
 cosnt form = document.getElementById(form);
@@ -12,10 +11,6 @@ function handleSubmit(event) {
   console.log("form.elements.color.value, form.elements.subscribe.checked");
 }
 
-=======
-// TODO: Read values from radio buttons and checkboxes using form.elements
-// Example starter:
->>>>>>> Master
 // const form = document.getElementById('sample-form');
 // const color = form.elements.color.value;
 // const isSubscribed = form.elements.subscribe.checked;
