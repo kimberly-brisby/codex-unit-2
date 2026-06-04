@@ -5,9 +5,11 @@ const liTag = document.querySelector("#content");
 // Scaffold:
 // const one = document.querySelector('#content');
 // console.log('before:', one && one.innerHTML);
+console.log(content)
 // // TODO: one.innerHTML = '...';
 // const list = document.querySelectorAll('.item');
 // list.forEach((el, i) => {
 //   // TODO: update each el.innerText
 // });
 liTag.innerHTML = "<h2>Hello World!</h2>";
+console.log(liTag.innerHTML)

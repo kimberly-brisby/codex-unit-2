@@ -1,6 +1,6 @@
 // Level 11 — textarea-range starter
 // TODO: in submit handler read textarea and range values via form.elements and convert range with Number()
-const form = document.getElementById(volume);
+const form = document.getElementById("sample-form");
 form.onsubmit = handleSubmit;
 
 function handleSubmit(event) {
