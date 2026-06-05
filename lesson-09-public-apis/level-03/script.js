@@ -1,21 +1,23 @@
-const formTag = document.getElementById("loginForm");
+const formTag = document.getElementById("login-form");
 formTag.onsubmit = handleSubmit;
+const errorE12  = document.getElementById("error");
+const succesE12 = document.getElementById("succes");
 
 async function handleSubmit(event) {
   try {
   event.preventDefault();
-  const formTag = event.target;
+  const form= event.target();
   const data = {
     username: formTag.elements.username.value,
     password: formTag.elements.password.value,
   };
   const dataStrng = JSON.stringify(data);
-  const respond = await fetch ("https://dummyjson.com/auth/login",
+  const response = await fetch ("https://dummyjson.com/auth/login",
   {method:"POST",
   body: dataStrng,
   headers: {"Content-Type" :"application/json"},
   });
-  const result = await Response.json();
+  const result = await response.json();
   const message = result.message;
   const firstName = result.firstName;
   const errorTag = document.getElementById("error");
@@ -32,7 +34,6 @@ async function handleSubmit(event) {
 } catch (error) {
 
 console.error("Network Error - Try Again")
-const errorTag = document.getElementById("error");
-errorTag.innerText = "There is an error conneting to server"
+
   }
 }

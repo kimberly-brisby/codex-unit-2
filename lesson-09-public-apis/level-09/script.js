@@ -26,8 +26,6 @@ async function handleSubmit(event) {
   const errorTag = document.getElementById("error");
   const successTag = document.getElementById("success");
 
- try {
-  
- }
+ 
   
 }
