@@ -23,17 +23,14 @@ async function handleSubmit(event) {
   const errorTag = document.getElementById("error");
   const successTag = document.getElementById("success");
 
-  if (message) {
-    errorTag.innerText = message;
-    successTag.innerText = "";
-  } else if (firstName) {
-    successTag.innerText = "Logged  in!" + firstName;
-    errorTag.innerText = "";
-    formTag.reset();
+  if (!response.ok) {
+  throw new Error("HTTP" + response.status);
+  
   }
 } catch (error) {
 
-console.error("Network Error - Try Again")
+console.log("Error")
+errorE12.innerText = "Network error-try again";
 
   }
 }
