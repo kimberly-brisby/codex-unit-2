@@ -209,6 +209,12 @@
 				"name": "http://127.0.0.1:3000/lesson-09-public-apis/level-09/index.html",
 				"request": "launch",
 				"url": "http://127.0.0.1:3000/lesson-09-public-apis/level-09/index.html"
+			},
+			{
+				"type": "msedge",
+				"name": "http://127.0.0.1:3000/lesson-07-browser-objects/level-05-querySelector/index.html",
+				"request": "launch",
+				"url": "http://127.0.0.1:3000/lesson-07-browser-objects/level-05-querySelector/index.html"
 			}
 		]
 	}
