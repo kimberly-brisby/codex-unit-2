@@ -11,5 +11,5 @@ console.log(content)
 // list.forEach((el, i) => {
 //   // TODO: update each el.innerText
 // });
-liTag.innerHTML = "<h2>The querySelector returns the first matching elemnet verus the getElemntById is used for max speed and clarity.</h2>";
+liTag.innerHTML = "<h2>The querySelector returns the first matching elemnet versus the getElemntById is used for max speed and clarity.</h2>";
 console.log(liTag.innerHTML)
